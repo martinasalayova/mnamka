@@ -7,6 +7,7 @@ import Ovocezeleninacomp from "./components/Ovocezeleninacomp";
 import Pekarnacukrarnacomp from "./components/Pekarnacukrarnacomp";
 import Trvanlivecomp from "./components/Trvanlivecomp";
 import Uzeninylahudkycomp from "./components/Uzeninylahudkycomp";
+import { Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
@@ -16,10 +17,7 @@ function App() {
           <h1>Mňamka</h1>
           <h3>Nechce se ti na nákup? Nech to na nás.</h3>
           <div>
-            Ovoce a zelenina Pekárna a cukrárna Mléčné a chlazené
-            <a title="Maso a ryby" href="/Masorybypage.jsx">
-              Maso a ryby
-            </a>
+            Ovoce a zelenina Pekárna a cukrárna Mléčné a chlazené Maso a ryby
             Uzeniny a lahůdky Mražené Trvanlivé Nápoje
           </div>
           <div>Přihlášení / Odhlásit se / Zaregistrovat se</div>
