@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Styles.css";
 import Masorybycomp from "./components/Masorybycomp";
 import Mlecnechlazenecomp from "./components/Mlecnechlazenecomp";
 import Mrazenecomp from "./components/Mrazenecomp";
@@ -7,6 +7,7 @@ import Ovocezeleninacomp from "./components/Ovocezeleninacomp";
 import Pekarnacukrarnacomp from "./components/Pekarnacukrarnacomp";
 import Trvanlivecomp from "./components/Trvanlivecomp";
 import Uzeninylahudkycomp from "./components/Uzeninylahudkycomp";
+
 import { Route, Routes, Link } from "react-router-dom";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <div>Tady bude carousel s mrazene</div>
           <Mrazenecomp />
           <div>Tady bude carousel s trvanlive</div>
+
           <Trvanlivecomp />
           <div>Tady bude carousel s napoje</div>
           <Napojecomp />
