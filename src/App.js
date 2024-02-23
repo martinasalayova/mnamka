@@ -1,14 +1,8 @@
 import "./Styles.css";
 import Masorybycomp from "./components/Masorybycomp";
 import Mlecnechlazenecomp from "./components/Mlecnechlazenecomp";
-import Mrazenecomp from "./components/Mrazenecomp";
-import Napojecomp from "./components/Napojecomp";
 import Ovocezeleninacomp from "./components/Ovocezeleninacomp";
 import Pekarnacukrarnacomp from "./components/Pekarnacukrarnacomp";
-import Trvanlivecomp from "./components/Trvanlivecomp";
-import Uzeninylahudkycomp from "./components/Uzeninylahudkycomp";
-
-import { Route, Routes, Link } from "react-router-dom";
 
 function App() {
   return (
@@ -23,25 +17,21 @@ function App() {
           </div>
           <div>Přihlášení / Odhlásit se / Zaregistrovat se</div>
         </header>
+        <br />
         <section>
-          <div>Tady bude carousel s ovocem a zeleninou</div>
+          <div>Ovoce a zelenina</div>
           <Ovocezeleninacomp />
-          <div>Tady bude carousel s pekarnou</div>
+          <div>Pekarna a cukrarna</div>
           <Pekarnacukrarnacomp />
-          <div>Tady bude carousel s mlecne a chlazene</div>
+          <div>Mlecne a chlazene</div>
           <Mlecnechlazenecomp />
-          <div>Tady bude carousel s maso ryby</div>
+          <div>Maso a ryby</div>
           <Masorybycomp />
-          <div>Tady bude carousel s uzeniny a lahudky</div>
-          <Uzeninylahudkycomp />
-          <div>Tady bude carousel s mrazene</div>
-          <Mrazenecomp />
-          <div>Tady bude carousel s trvanlive</div>
-
-          <Trvanlivecomp />
-          <div>Tady bude carousel s napoje</div>
-          <Napojecomp />
         </section>
+        <br />
+        <br />
+        <br />
+
         <footer>
           <div>O nás</div>
           <div>Kontaktujte nás: mnam@mnamka.cz</div>

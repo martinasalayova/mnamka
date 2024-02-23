@@ -2,14 +2,14 @@
 
 Bude se jednat o e-shop, který umožňuje objednat nákup potravin až domů.
 
-## Klíčové pvky
+## Klíčové prvky
 
 Hlavní stránka kde se budou vybírat produkty a přidávat do košíku.
 
 Košík - půjdou do něj vkládat produkty. Upravovat obsah. Košík bude zobrazovat aktuální cenu všech produktů. Obsah košíku bude neustále vidět(někde v rohu?).
 
 Produkty a informace k nim (cena fotka atd) se budou načítat voláním servrového API. Na začáku v tutoriálu to bude zatím přímo ve složce na tvrdo dané.
-Až bude nějaká kostra rozšíríme to aby si to bralo info dynamicky.
+Až bude nějaká kostra rozšíríme to, aby si to bralo info dynamicky.
 
 Možnost filtrovat produkty na stránce, kategorie atd.
 
